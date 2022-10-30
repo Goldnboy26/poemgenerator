@@ -16,6 +16,6 @@ let quote =
      ];
 
      btn.addEventListener('click', function(){
-         var randoomQuote = quote [Math.floor(Math.random() *quotes.length)]
+         var randomQuote = quote [Math.floor(Math.random() *quote.length)]
          output.innerHTML = randomQuote;
      })
