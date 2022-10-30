@@ -311,3 +311,22 @@ function OnLoad()
   LoadQuestions();
   autocomplete(myQuestion, QuestionL,AnswerL);
 }
+
+var datal=[
+   "what is html?", "how do I love someone?", "anal sex painful?", "where can I get a blow job?",]
+   localStorage.setItem("MyData", DataL);
+
+   var GetData;
+   if (localStorage.MyData)
+   {
+      GetData=localStorage.getItem("MyData");
+      var count=0
+      DataL=[];
+      Data[Count]=""
+      for (var i=0;i<GetData.length;i++) //read every character
+      {
+         if (GetData[i]=="," ) {Count++;DataL[Count]="";}
+         else DataL [Count]=DataL [Count]+GetData[i];
+      }
+     }
+
