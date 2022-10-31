@@ -18,6 +18,14 @@ body {
 
 h1 {
    font-size: 250%;
+   
+}
+
+h2 {
+  margin-left: 38%;
+  font-size: 250%;
+  font-size: center;
+   
 }
 
 p {
@@ -45,16 +53,18 @@ img:last-of-type {
 
 
 .title {
-  width: 50%;
-  padding: 5%;
+  width: 100%;
+  padding: 0%;
   border-radius: 5px;
   background: rgba(240,230,220, .7);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
 }
 
+
 .slide:nth-child(2n) .title {
-  margin-left: 20%;
+  margin-left: 0%;
   margin-right: auto;
+  
 }
 
 .slide:nth-child(2n+1) .title {
@@ -89,17 +99,23 @@ img:last-of-type {
   transform: translateZ(-1px) scale(2);
 }
 
-.li{
-  display: none;
+.link{
+  color: lightsalmon;
+  
 }
 
 #container{
-  background-color: lightslategray;
+  background-color: #fffbf0;
   border: 5px solid #f5e4c3;
   height: 575px;
   width: 750px;
   margin: 0 auto;
   text-align: center;
+  transform-style: preserve-3d;
+  height: 300%;
+  width: 200;
+  overflow-x: auto;
+  font-family: Nunito;
 }
 
 #btn {
@@ -114,5 +130,5 @@ img:last-of-type {
 #output {
   margin: 25px auto;
   font-size: 26px;
-  color: white
+  color: black;
 }
